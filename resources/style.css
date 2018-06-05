@@ -1,0 +1,30 @@
+html {
+  font-family: arial;
+  font-size: 16px;
+  color: blue;
+  text-align: center;
+}
+
+.main-container {
+  display: inline-flex;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  max-width: 70%
+}
+
+
+
+.ads {
+  display: flex;
+  flex-direction: column;
+  border-color: orange;
+  min-width: 20%;
+  background-color: blue;
+}
+
+img {
+  max-height: 500px;
+}
